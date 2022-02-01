@@ -1,3 +1,5 @@
+console.log("EJERCICIO 1 - Padawan Frida Gabriela Geyne Marín");
+
 const ejercicio1 = [
   3, 100, 85, 64, 46, 39, 40, 30, 20, 24, 25, 6, 10, 54, 82, 71, 67, 77, 17, 29,
   19, 88, 456, 13, 23, 24,
@@ -17,6 +19,10 @@ ejercicio1.forEach( (num) => {
   }; 
 } );
 
+console.log(" ");
+
+
+console.log("EJERCICIO 2 - Padawan Frida Gabriela Geyne Marín");
 
 const ejercicio2 = [
   {
@@ -57,6 +63,9 @@ ejercicio2.forEach( (asistente) => {
   };
 } );
 
+console.log(" ");
+
+console.log("EJERCICIO 3 - Padawan Frida Gabriela Geyne Marín");
 
 function fibonacci () {
   let posicion1 = 0;
