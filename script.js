@@ -57,3 +57,17 @@ ejercicio2.forEach( (asistente) => {
   };
 } );
 
+
+function fibonacci () {
+  let posicion1 = 0;
+  let posicion2 = 1;
+  let posicion3 = 0;
+  console.log(`${posicion2}`);
+  for ( let sucesor = 0; sucesor <= 50; sucesor++ ) {
+    posicion3 = posicion1 + posicion2;
+    posicion1 = posicion2;
+    posicion2 = posicion3;
+    console.log(`${posicion3}`);
+  };
+};
+fibonacci();
